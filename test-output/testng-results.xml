@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-03T16:50:05 EEST" name="Failed suite [Opencart Suite]" finished-at="2023-08-03T16:50:12 EEST" duration-ms="6370">
+    <groups>
+      <group name="Master">
+        <method signature="TC_002_LoginTest.test_Login()[pri:0, instance:testCases.TC_002_LoginTest@161479c6]" name="test_Login" class="testCases.TC_002_LoginTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_002_LoginTest.test_Login()[pri:0, instance:testCases.TC_002_LoginTest@161479c6]" name="test_Login" class="testCases.TC_002_LoginTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2023-08-03T16:50:05 EEST" name="Opencart Test(failed)" finished-at="2023-08-03T16:50:12 EEST" duration-ms="6370">
+      <class name="testCases.TC_002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@161479c6]" started-at="2023-08-03T16:50:06 EEST" name="setup" finished-at="2023-08-03T16:50:09 EEST" duration-ms="2963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Login()[pri:0, instance:testCases.TC_002_LoginTest@161479c6]" started-at="2023-08-03T16:50:09 EEST" name="test_Login" finished-at="2023-08-03T16:50:11 EEST" duration-ms="2874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginTest@161479c6]" started-at="2023-08-03T16:50:11 EEST" name="tearDown" finished-at="2023-08-03T16:50:12 EEST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_LoginTest -->
+    </test> <!-- Opencart Test(failed) -->
+  </suite> <!-- Failed suite [Opencart Suite] -->
+</testng-results>

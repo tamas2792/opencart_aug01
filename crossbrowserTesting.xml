@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Opencart Suite" parallel="tests">
+    <test thread-count="5"  name="Chrome Opencart Tests">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="testCases.TC_001_AccountRegistrationTest">
+            </class>
+        </classes>
+    </test>
+    <test thread-count="5"  name="Edge Opencart Tests">
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="testCases.TC_001_AccountRegistrationTest">
+            </class>
+        </classes>
+    </test>
+</suite>
